@@ -11,15 +11,19 @@ public class AddressEntry {
     AddressEntry() {
 
     }
-    AddressEntry(String firstName, String lastName, String street, String state, int zip, String phone, String email){
+    AddressEntry(String firstName, String lastName, String street, String city,String state, int zip, String phone, String email){
         this.firstName = firstName;
         this.lastName = lastName;
         this.street = street;
         this.state = state;
         this.zip = zip;
+        this.city = city;
         this.phone = phone;
         this.email = email;
     }
+
+
+
     /**
      * Method to override toString
      * @return a String containing details of a single AddressEntry
